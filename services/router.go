@@ -2,8 +2,8 @@ package services
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/metalscreame/ginHelloWorld/services/singleArticle"
-	"github.com/metalscreame/ginHelloWorld/services/showIndex"
+	"github.com/heroku/go-getting-started/services/singleArticle"
+	"github.com/heroku/go-getting-started/services/showIndex"
 )
 
 // Handle routes

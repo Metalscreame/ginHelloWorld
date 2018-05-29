@@ -1,1 +1,1 @@
-web: ginHelloWorld
+web: go-getting-started
