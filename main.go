@@ -13,7 +13,7 @@ var router *gin.Engine
 
 func main() {
 	port := os.Getenv("PORT")
-	port="8080"
+	//port="8080"
 	if port == "" {
 		log.Fatal("$PORT must be set")
 	}
