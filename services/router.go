@@ -1,9 +1,9 @@
 package services
 
 import (
-	"github.com/heroku/go-getting-started/services/showIndex"
 	"github.com/gin-gonic/gin"
-	"github.com/heroku/go-getting-started/services/singleArticle"
+	"github.com/metalscreame/ginHelloWorld/services/singleArticle"
+	"github.com/metalscreame/ginHelloWorld/services/showIndex"
 )
 
 func InitializeRoutes(router *gin.Engine) {

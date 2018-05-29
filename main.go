@@ -4,8 +4,8 @@ import (
 	"log"
 	"github.com/gin-gonic/gin"
 	_ "github.com/heroku/x/hmetrics/onload"
-	"github.com/heroku/go-getting-started/services"
 	"os"
+	"github.com/metalscreame/ginHelloWorld/services"
 )
 
 var router *gin.Engine
@@ -13,7 +13,7 @@ var router *gin.Engine
 
 func main() {
 	port := os.Getenv("PORT")
-	//port:="8080"
+	port="8080"
 	if port == "" {
 		log.Fatal("$PORT must be set")
 	}
@@ -24,8 +24,6 @@ func main() {
 	router.Static("/static", "static")
 
 	services.InitializeRoutes(router)
-
-
 	router.Run(":" + port)
 }
 

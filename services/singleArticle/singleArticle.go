@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"net/http"
 	"github.com/gin-gonic/gin"
-	"github.com/heroku/go-getting-started/models"
+	"github.com/metalscreame/ginHelloWorld/models"
 )
 
 func GetArticle(c *gin.Context) {
