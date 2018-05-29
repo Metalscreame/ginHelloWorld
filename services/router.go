@@ -6,8 +6,8 @@ import (
 	"github.com/metalscreame/ginHelloWorld/services/showIndex"
 )
 
+// Handle routes
 func InitializeRoutes(router *gin.Engine) {
-	// Handle the index route
 	router.GET("/", showIndex.ShowIndexPage)
 	router.GET("/article/view/:article_id", singleArticle.GetArticle)
 }
