@@ -12,7 +12,7 @@ var router *gin.Engine
 
 func main() {
 
-	dataBase.InitDataBase()
+	//dataBase.InitDataBase()
 	services.InitializeRouter()
 
 }
